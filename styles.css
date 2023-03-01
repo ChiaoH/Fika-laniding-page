@@ -70,15 +70,7 @@ body {
     z-index: 1;
     transform: scale(1.2);
   }
-  ul {
-    list-style-type: none;
-    padding: 0%;
-    text-align: center;
-    display: flex;
-  }
-  li {
-    padding: 0px 30px;
-  }
+  
 
   .body4 {
     padding: 100px 150px 50px 150px;
