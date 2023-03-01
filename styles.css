@@ -1,0 +1,148 @@
+body {
+    padding: 0;
+    border: 0;
+    margin: 0;
+  }
+
+  .banner img {
+    width: 100%;
+    position: relative;
+    padding: 0;
+  }
+
+  .heading {
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    text-align: center;
+    margin: 350px 0px;
+    line-height: 20px;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .container {
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+  }
+
+
+  .body1 {
+    padding: 100px 150px 120px 150px;
+    background-color: #ffebaf;
+    height: 500px;
+   }
+  
+  .fika-img {
+    border-radius: 20px;
+  }
+
+  .body2 {
+    padding: 100px 150px 120px 150px;
+    background-color: #f6b61e;
+    
+    
+  }
+ 
+  a {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  .body3 {
+    display: inline-block;
+    padding: 50px 150px 170px;
+    background-color: #ffebaf;
+    min-height: 100vh;
+  }
+
+
+
+  .container-bread .box {
+    position: sticky;
+    width: 275px;
+    height: 275px;
+    transition: 0.5s;
+  }
+
+  .container-bread .box:hover {
+    z-index: 1;
+    transform: scale(1.2);
+  }
+  ul {
+    list-style-type: none;
+    padding: 0%;
+    text-align: center;
+    display: flex;
+  }
+  li {
+    padding: 0px 30px;
+  }
+
+  .body4 {
+    padding: 100px 150px 50px 150px;
+    background-color: #f6b61e;
+    text-align: center;
+  }
+
+  .heading h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 80px;
+    color: #f6b61e;
+    font-weight: 700;
+  }
+  .heading h2 {
+    font-family: "Vollkorn", serif;
+    color: #df760b;
+    font-size: 28px;
+    letter-spacing: 2px;
+  }
+
+  h3 {
+    font-size: 36px;
+    font-family: "Vollkorn", serif;
+    color: #743c08;
+    letter-spacing: 3px;
+  }
+
+  h4 {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+  }
+  p {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+  }
+  a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    .link1 {
+      font-family: "Poppins", sans-serif;
+    }
+  }
+
+  button {
+    display: block;
+    margin: 0 auto;
+    padding: 20px 30px;
+    border: 2px solid #ffebaf;
+    border-radius: 40px;
+    background-color: #ffebaf;
+    color: #df760b;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    box-shadow: 8px 8px 6px 0.5px rgba(0, 0, 255, 0.2);
+    transition: all 200ms ease-in-out;
+  }
+
+  button:hover {
+    background-color: #df760b;
+    border: 2px solid #df760b;
+    color: #ffebaf;
+    cursor: pointer;
+  }
+  hr {
+    width: 60%;
+  }
